@@ -6,7 +6,7 @@ function TodoItem({ todo, onDelete, onToggle }){
             {todo.title}
             </span>
             <button onClick={()=>
-                onDelete(todo._id)}>*</button>
+                onDelete(todo._id)}>Delete</button>
         </div>
     );
 }
